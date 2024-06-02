@@ -5,7 +5,7 @@
 **Command line:**
 
 - `make` to build the project. This will produce an executable called `testfs`.
-- `make test` to build and run the project. Produces and executes `testfs`
+- `make test` to build and run the project. Produces and executes `testfs`.
 
 ## Using the executable
 
@@ -28,8 +28,13 @@ This command runs the program which tests the functionality of opening, writing 
 - `free.h`: Header file for `free.c` with declarations related to free space management.
 - `inode.c`: Contains functions specifically for managing inodes within the file system.
 - `inode.h`: Header file for `inode.c` which includes inode management function declarations.
+- `dir.c`: Contains functions for managing directories within the file system.
+- `dir.h`: Header file for `dir.c` which includes directory management function declarations.
 - `pack.c`: Contains helper functions for reading and writing multi-byte values.
 - `pack.h`: Header file for `pack.c` with declarations of helper functions.
+- `path.c`: Contains helper functions for manipulating path strings.
+- `path.h`: Header file for `path_utils.c` which includes declarations for path manipulation functions.
+- `common.h`: Contains all macro definitions used throughout the src files.
 - `Makefile`: File which builds the executable and handles cleaning operations.
 
 ## Data
